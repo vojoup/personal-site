@@ -1,11 +1,77 @@
 body {
-    background-color: darkgrey;
+    background-color: chocolate;
+    font-family: AnjaliOldLipi;
+    color: white;
+    height: 800px;
 }
 
-h1 {
-    text-align: center;
+h2 {
+    font-size: 3em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    float: inherit;
+}
+
+a:hover {
+    color: #000;
 }
 
 .main-header {
-    color: aqua;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin: 1em;
+}
+
+.container {
+    /*background-color: black;*/
+    position: center;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+div.contacts {
+    background-color: #b6701e;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 800px;
+}
+
+.contact {
+    list-style-type: none;
+}
+
+dt {
+    font-size: 2em;
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0
+}
+dd {
+    font-size: 2em;
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0
+}
+
+div.about {
+    background-color: #ff9e2c;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    height: 800px;
+}
+
+div.about p {
+    font-size: 1.7em;
 }
