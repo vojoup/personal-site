@@ -1,8 +1,8 @@
 body {
-    background-color: chocolate;
+    background-color: black;
     font-family: AnjaliOldLipi;
     color: white;
-    height: 800px;
+    text-align: center;
 }
 
 h2 {
@@ -13,11 +13,11 @@ a {
     text-decoration: none;
     color: white;
     font-size: 2em;
-    float: inherit;
+    text-align: center;
 }
 
 a:hover {
-    color: #000;
+    border-bottom: dotted black 0.1em;
 }
 
 .main-header {
@@ -28,50 +28,28 @@ a:hover {
 }
 
 .container {
-    /*background-color: black;*/
-    position: center;
+    vertical-align: middle;
+    position: absolute;
     width: 100%;
-    height: 100%;
-    display: table;
+    height: 500px;
 }
 
-div.contacts {
-    background-color: #b6701e;
-    text-align: center;
+div.contact {
+    padding-top: 20%;
     position: absolute;
     right: 0px;
     width: 50%;
-    height: 800px;
-}
-
-.contact {
-    list-style-type: none;
-}
-
-dt {
-    font-size: 2em;
-    float: left;
-    width: 50%;
-    padding: 0;
-    margin: 0
-}
-dd {
-    font-size: 2em;
-    float: left;
-    width: 50%;
-    padding: 0;
-    margin: 0
+    height: 100%;
 }
 
 div.about {
-    background-color: #ff9e2c;
-    text-align: center;
+    padding-top: 20%;
     position: absolute;
     left: 0px;
     width: 50%;
-    height: 800px;
+    height: 100%;
 }
 
-div.about p {
-    font-size: 1.7em;
+footer {
+    margin: 1em;
 }
